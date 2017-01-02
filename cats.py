@@ -1,3 +1,4 @@
+#simple program that asks user for the amount of cats they have and responds
 print('How many cats do you have?')
 numCats = input() #gets the number of cats a user has
 try:
