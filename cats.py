@@ -9,5 +9,5 @@ try:
         print('You should get a cat')
     elif int(numCats) < 0:
         print('How does one have negative cats?')
-except ValueError:
+except ValueError: #if they enter something besides a number
     print('Please enter a number.')
